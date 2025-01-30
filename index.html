@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="image">
+            <img data-testid="profilePicture" src="assets/my profile image .jpg" alt="profile-image" width="250px"
+                height="250px" class="profile-image">
+        </div>
+        <div class="aboutme">
+            <p data-testid="fullName" class="name">Osibote Omotayo</p>
+            <p data-testid="jobTitle" class="job">Frontend Developer</p>
+            <p data-testid="shortBio" class="my-bio">I'm a skilled Frontend Developer with a passion for
+                creating
+                visually appealing and user-friendly web applications. With expertise in HTML, CSS, JavaScript,</p>
+            <p data- testid="currentLocation" class="my-location">Lagos, Nigeria</p>
+            <p data-testid="emailAddress" class="my-email">Osiboteomotayo100@gmail.com</p>
+        </div>
+        <div class="media-button">
+            <a data-testid="socialLinks" href="https://www.facebook.com/oshibote.omotayo?mibextid=kFxxJD" class="link">
+                <i class='bx bxl-facebook'></i></a>
+            <a data-testid="socialLinks" href="https://x.com/100omotayo" class="link">
+                <i class='bx bxl-twitter'></i></a>
+            <a data-testid="socialLinks" href="https://www.instagram.com/?hl=en&deoia=1" class="link">
+                <i class='bx bxl-instagram'></i></a>
+            <a data-testid="socialLinks" href="http://linkedin.com/in/osibote-omotayo-6b5419260" class="link">
+                <i class='bx bxl-linkedin'></i></a>
+        </div>
+        <p class="current-time">Current Time: <span data-testid="currentTimeUTC" id="utc-time"></span></p>
+    </div>
+</body>
+
+</html>
